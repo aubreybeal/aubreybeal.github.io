@@ -1,0 +1,49 @@
+baseURL: "https://aubreybeal.github.io"
+languageCode: en-us
+title: Nonlinear & Complex Systems Lab
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+params:
+    homeInfoParams:
+        Title: 
+        Content:
+
+    socialIcons: # optional
+
+    disableThemeToggle: true
+
+menu:
+  main:
+    - identifier: Research
+      name: Research
+      url: /research/
+      weight: 10
+    - identifier: Lab
+      name: Lab
+      url: /lab/
+      weight: 20
+    - identifier: Teaching
+      name: Teaching
+      url: /teaching/
+      weight: 30
+    - identifier: Resources
+      name: Resources
+      url: /resources/
+      weight: 40
+    - identifier: Notes
+      name: Notes
+      url: /notes/
+      weight: 50
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 60
+
+
+
